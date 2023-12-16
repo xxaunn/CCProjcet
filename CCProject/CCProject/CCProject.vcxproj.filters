@@ -22,7 +22,25 @@
     <ClCompile Include="..\..\source\Main.c">
       <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\source\printScreen.c">
+    <ClCompile Include="..\..\source\delay.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\screenPrint.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\dinoAni.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\dinoDump.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gameMCactus.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\screenScroll.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gameColl.c">
       <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>

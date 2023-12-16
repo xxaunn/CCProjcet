@@ -10,30 +10,46 @@
 int main(void)
 {
 	int i, j, k;
-	int tempTime, tempData;
+	int tempData;
+
+	int debug_count = 0;
+	int gameStep = 4;
+
 	char screenPoint[SCREENHEIGHT][SCREENWIDTH + 5] =
 	{
-		{"                                                                                                        \0"},
-		{"                                                                                                        \0"},
-		{"                                                                                                        \0"},
-		{"                                                                                                        \0"},
-		{"                                                                                                        \0"},
-		{"*          ***    ******    ****    ****        ****            ****         ***                **    **\0"},
-		{"*          ***    ******    ****    ****        ****            ****         ***                **    **\0"},
-		{"*          ***    ******    ****    ****        ****            ****         ***                **    **\0"},
-		{"********************************************************************************************************\0"},
-		{"                                                                                                        \0"}
+		{"123456789                                                                                               \n"},
+		{"2                                                                                                       \n"},
+		{"3                                                                                                       \n"},
+		{"4                                                                                                       \n"},
+		{"5                                                                                                       \n"},
+		{"6                                                                                                       \n"},
+		{"7                                                                                                       \n"},
+		{"********************************************************************************************************\n"},
+		{"****#****#****#****#****#****#****#****#****#****#****#****#****#****#****#****#****#****#****#****#****\n"},
+		{"0                                                                                                       \0"}
 	};
 
 	initConsole();
 	
+	//printf("%d  %d  %d  %d  %s\n\n", &screenPoint[0][0], &screenPoint[0][1], sizeof(screenPoint[0][0]), &screenPoint[0][0] + 1, *(&screenPoint[0] + sizeof(screenPoint[0][0])));
+	//printf("%s\n\n", *(&screenPoint[0][0] + 1));
+
+	//while (1) {}
+
+
 	while (1)
 	{
-		tempTime
-		while()
-	}
+		gameStep++;
 
-	printScreen(screenPoint, SCREENHEIGHT);
+		screenScroll(screenPoint, gameStep);
+		screenPrint(&screenPoint);
+
+		debug_count++;
+		printf("%d", debug_count);
+
+
+		delay(1);
+	}
 
 
 	system("PAUSE");

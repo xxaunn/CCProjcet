@@ -131,9 +131,15 @@
     <ClInclude Include="..\..\include\CCProject.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\source\delay.c" />
+    <ClCompile Include="..\..\source\dinoAni.c" />
+    <ClCompile Include="..\..\source\dinoDump.c" />
+    <ClCompile Include="..\..\source\gameMCactus.c" />
     <ClCompile Include="..\..\source\initConsole.c" />
     <ClCompile Include="..\..\source\Main.c" />
-    <ClCompile Include="..\..\source\printScreen.c" />
+    <ClCompile Include="..\..\source\gameColl.c" />
+    <ClCompile Include="..\..\source\screenPrint.c" />
+    <ClCompile Include="..\..\source\screenScroll.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
