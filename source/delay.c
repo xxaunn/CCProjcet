@@ -5,6 +5,6 @@
 
 void delay(int delayTime)
 {
-	long int preTime = time(NULL);
-	while(preTime + delayTime > time(NULL)){}
+	unsigned long preTime = GetTickCount();
+	while(preTime + delayTime > GetTickCount()){}
 }

@@ -42,13 +42,13 @@ int main(void)
 		gameStep++;
 
 		screenScroll(screenPoint, gameStep);
-		screenPrint(&screenPoint);
+		screenPrint(screenPoint);
 
 		debug_count++;
-		printf("%d", debug_count);
+		//printf("%d", debug_count);
 
 
-		delay(1);
+		delay(100);
 	}
 
 

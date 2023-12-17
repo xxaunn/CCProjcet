@@ -1,7 +1,6 @@
 ﻿  Main.c
-d:\!universities\1-1\understand the basic structure of programming languages\ccprojcet\source\main.c(45): warning C4048: 下列陣列註標彼此不同: 'const char (*)[105]' 和 'char (*)[10][105]'
-d:\!universities\1-1\understand the basic structure of programming languages\ccprojcet\source\main.c(13): warning C4101: 'tempData': 未參考的區域變數
-d:\!universities\1-1\understand the basic structure of programming languages\ccprojcet\source\main.c(12): warning C4101: 'k': 未參考的區域變數
-d:\!universities\1-1\understand the basic structure of programming languages\ccprojcet\source\main.c(12): warning C4101: 'j': 未參考的區域變數
-d:\!universities\1-1\understand the basic structure of programming languages\ccprojcet\source\main.c(12): warning C4101: 'i': 未參考的區域變數
-  CCProject.vcxproj -> D:\!universities\1-1\Understand the basic structure of programming languages\CCProjcet\CCProject\CCProject\..\..\temp\debug\CCProject.exe
+d:\!universitiy\1st\understand the basic structure of programming languages\project\ccprojcet\source\main.c(13): warning C4101: 'tempData': 未參考的區域變數
+d:\!universitiy\1st\understand the basic structure of programming languages\project\ccprojcet\source\main.c(12): warning C4101: 'k': 未參考的區域變數
+d:\!universitiy\1st\understand the basic structure of programming languages\project\ccprojcet\source\main.c(12): warning C4101: 'j': 未參考的區域變數
+d:\!universitiy\1st\understand the basic structure of programming languages\project\ccprojcet\source\main.c(12): warning C4101: 'i': 未參考的區域變數
+  CCProject.vcxproj -> D:\!universitiy\1st\Understand the basic structure of programming languages\project\CCProjcet\CCProject\CCProject\..\..\temp\debug\CCProject.exe
